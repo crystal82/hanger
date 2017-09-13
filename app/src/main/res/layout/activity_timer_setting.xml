@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.uascent.jz.ua420r.view.VerticalSwipeRefreshLayout
+        android:id="@+id/srl"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ListView
+                android:id="@+id/timer_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/no_timer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/no_time_data"
+                android:textColor="@color/colorNormal"
+                android:textSize="18sp"
+                android:visibility="visible" />
+        </FrameLayout>
+    </com.uascent.jz.ua420r.view.VerticalSwipeRefreshLayout>
+
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/timer_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="20dp"
+        app:fab_colorNormal="@color/primary"
+        app:fab_icon="@drawable/add_2" />
+
+</LinearLayout>

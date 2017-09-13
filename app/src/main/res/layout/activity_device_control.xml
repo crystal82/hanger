@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_dev"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_7a7a7a"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4">
+
+            <ImageView
+                android:id="@+id/iv_wifi_icon"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/lvl_0" />
+
+            <LinearLayout
+                android:id="@+id/ll_c"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/device_off"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/iv_switch"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/off" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/dev_sw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll_c"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/is_open"
+                android:textColor="@color/color_c2c0c2"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/s_switch"
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:layout_centerInParent="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/s_off" />
+
+                <TextView
+                    android:id="@+id/tv_switch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/s_switch"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"
+                    android:text="@string/o_c"
+                    android:textColor="@color/color_c2c0c2" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+
+                <ImageView
+                    android:id="@+id/share"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerInParent="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/share_off" />
+
+                <TextView
+                    android:id="@+id/tv_share"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/share"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="@string/share"
+                    android:textColor="@color/color_c2c0c2" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+
+                <ImageView
+                    android:id="@+id/timer"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerInParent="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/timer_off" />
+
+                <TextView
+                    android:id="@+id/tv_timer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/timer"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="@string/timer"
+                    android:textColor="@color/color_c2c0c2" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

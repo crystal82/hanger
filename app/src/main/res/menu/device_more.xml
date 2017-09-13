@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_getStatu"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/get_dev_status" />
+    <item
+        android:id="@+id/action_getHardwareInfo"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/get_dev_info" />
+    <item
+        android:id="@+id/action_setDeviceInfo"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/setting_dev_info" />
+<!--
+    <item
+        android:id="@+id/action_del"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="移除设备" />
+    <item
+        android:id="@+id/action_Update"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="检查固件升级" />-->
+
+</menu>

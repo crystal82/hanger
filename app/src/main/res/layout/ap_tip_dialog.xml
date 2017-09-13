@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="230dp"
+    android:id="@+id/ll_luminance"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:background="@drawable/dialog_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/link_device_ap"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/link_device_ap_tip"
+        android:textSize="14sp" />
+
+    <FrameLayout
+        android:layout_width="220dp"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/ty_adddevice_ap_screen" />
+
+        <TextView
+            android:id="@+id/tv_ap_ssid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="136dp"
+            android:text="XPG-GAgent-xxxx"
+            android:textColor="#1E1E1E" />
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btn_link_ap"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_link_ap_bottom_shape"
+        android:text="@string/go_to_link"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+</LinearLayout>

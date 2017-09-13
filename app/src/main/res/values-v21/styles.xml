@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:actionBarStyle">@style/my_actionbar_style</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverFlow</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:actionMenuTextAppearance">@style/MyMenuTextStyle</item>
+        <item name="android:statusBarColor">@color/primary</item>
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>
