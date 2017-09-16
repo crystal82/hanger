@@ -1,0 +1,638 @@
+<resources>
+    <string name="app_name">SmartHanger</string>
+
+    <!--Add Str-->
+    <string name="processing">处理中...</string>
+    <string name="time_setting_is_wrong">时间设置有误</string>
+    <string name="bar_add_time">添加定时</string>
+    <string name="bar_set_time">定时器</string>
+    <string name="add_time_success">添加定时器成功</string>
+    <string name="add_time_error">添加定时器失败</string>
+    <string name="max_set_time">最多只能设置8个定时器</string>
+    <string name="no_time_data">没有定时数据</string>
+    <string name="please_set_time">请设置时间：</string>
+    <string name="get_info_error">获取设备信息失败：</string>
+    <string name="hint_txt">提示</string>
+    <string name="the_program_crashes">程序崩溃了...</string>
+    <string name="i_see">我知道了</string>
+    <string name="add_devices">添加设备</string>
+    <string name="fail_heavy_tied">绑定失败，是否重绑？</string>
+    <string name="binding_please_later">绑定中，请稍后...</string>
+    <string name="set_net_error">配网失败</string>
+    <string name="device_bind_error">绑定失败</string>
+    <string name="hardware_information">设备硬件信息</string>
+    <string name="hardware_information_error">获取设备硬件信息失败：</string>
+    <string name="set_success">设置成功</string>
+    <string name="set_error">设置失败：</string>
+    <string name="no_permission">你没有权限分享该设备</string>
+    <string name="unknown_error">未知错误</string>
+    <string name="not_in_lan">只允许在局域网下获取设备硬件信息！</string>
+    <string name="set_alias">请输入设备别名或备注！</string>
+    <string name="disconnect">连接已断开</string>
+    <string name="equipment_no_response">设备无响应，请检查设备是否正常工作</string>
+    <string name="is_open">设备已开启</string>
+    <string name="close">关闭</string>
+    <string name="open">开启</string>
+    <string name="is_close">设备已关闭</string>
+    <string name="alarm">报警:</string>
+    <string name="breakdown">故障:</string>
+    <string name="alarm_or_breakdown">[设备故障或报警]</string>
+    <string name="is_out_line">该设备已离线</string>
+    <string name="out_line">离线</string>
+
+    <string name="is_to_bind">当前配网成功设备，是否进行绑定?</string>
+    <string name="is_to_delete">是否删除该设备?</string>
+
+    <!--SplashActivity-->
+    <string name="splash_tv">连接智能世界，引领精彩生活。</string>
+
+    <!-- UserLoginActivity -->
+    <string name="app_company">账号登录</string>
+    <string name="name_hint">请输入手机号</string>
+    <string name="password_hint">请输入登录密码</string>
+    <string name="name_digits">0123456789</string>
+    <string name="psw_digits">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ</string>
+    <string name="forget_password">
+        <u>忘记密码？</u>
+    </string>
+    <string name="login">登录</string>
+    <string name="register">注册新用户</string>
+    <string name="toast_name_empet">用户名不能为空</string>
+    <string name="toast_name_wrong">请输入登录账号</string>
+    <string name="toast_psw_empet">密码不能为空</string>
+    <string name="toast_login_successful">登录成功</string>
+    <string name="toast_login_failed">登录失败</string>
+    <string name="toast_third_login_failed">第三方登录失败</string>
+    <string name="loadingtext">处理中，请稍等...</string>
+    <string name="pass">跳 过 > ></string>
+    <string name="QQ">QQ登录</string>
+    <string name="Wechat">微信登录</string>
+    <string name="double_click">再按一次退出程序</string>
+    <string name="push_type_string">推送功能仅限于企业开发者使用，目前版本暂不支持推送</string>
+    <!-- RegisterActivity -->
+    <string name="getcode">获取验证码</string>
+    <string name="getcode_again">重新获取验证码</string>
+    <string name="timer_message">秒后重新获取</string>
+    <string name="code_hint">请输入验证码</string>
+    <string name="send_successful">手机验证码发送成功</string>
+    <string name="send_failed">手机短信发送失败</string>
+    <string name="toast_code_empet">验证码不能为空</string>
+    <string name="toast_psw_wrong">请输入密码</string>
+    <string name="toast_psw_short">密码不能小于6位</string>
+    <string name="no_getcode">验证码无效</string>
+    <string name="btn_register">立即注册</string>
+    <string name="register_successful">注册成功</string>
+    <string name="register_failed">注册失败</string>
+
+    <!-- ForgetPasswordActivity -->
+    <string name="reset">重置密码</string>
+    <string name="reset_successful">重置成功</string>
+    <string name="reset_failed">重置失败</string>
+    <string name="forget_pass">忘记密码?</string>
+    <!-- 配置模块 -->
+
+    <string name="link_device_ap">将手机Wi-Fi连接的设备热点</string>
+    <string name="link_device_ap_tip">请将手机连接到如图所示的热点</string>
+    <string name="go_to_link">去连接</string>
+
+    <!-- ReadyDeviceActivity -->
+    <string name="add_device">添加</string>
+    <string name="addDeviceTitle">设备</string>
+    <string name="add_device_menu">设备配网</string>
+    <string name="like_img">板卡上电后3秒内，按指定按键，进入待连接状态。</string><!--接通电源，确认设备处于待连接状态，如上图亮红灯-->
+    <string name="noredlight">不是亮红灯？</string>
+    <string name="finished">已完成上述操作</string>
+    <string name="join_by_hands">连接设备</string>
+    <string name="next">下一步</string>
+
+    <!-- ResetDeviceActivity -->
+    <string name="reset_device">重置设备</string>
+    <string name="resetmessage">如下图，按一下【KEY 2】，看到【RGB LED】亮红灯，代表重置成功</string>
+
+    <!-- ChooseDeviceActivity -->
+    <string name="choosedevice">选择您要连接的设备</string>
+    <string name="nodevice">没有我的设备？</string>
+    <string name="network_error">请切换至Wi-Fi环境</string>
+    <string name="itemtext_start">发现设备</string>
+    <string name="itemtext_end">，快速配置</string>
+    <string name="ssid_start">XPG-GAgent</string>
+
+    <!-- ChooseDeviceWorkWifi -->
+    <string name="check_psw_title">检查密码</string>
+    <string name="check_psw">检查Wi-Fi密码是否正确</string>
+    <string name="configuration_title">输入Wi-Fi密码，配置设备连接网络</string>
+    <string name="softPsw_hint">请输入Wi-Fi密码</string>
+    <string name="workwifi_isnull">确定密码为空吗？</string>
+    <string name="choose_wifi_list_title">请选择可用的Wi-Fi网络</string>
+    <string name="softssid_error">设备热点故障，请返回</string>
+
+    <!-- ConfigCountDownActivity -->
+    <string name="configcountDown_title">搜索并连接设备</string>
+    <string name="configuration_successful">配置成功</string>
+    <string name="configuration_failed">配置失败</string>
+    <string name="prompt">提示</string>
+    <string name="cancel_besure">确定放弃配置吗？</string>
+    <string name="cancel">取消</string>
+    <string name="edit">编辑</string>
+    <string name="besure">确定</string>
+    <string name="device_connect">手机已连接设备，正在配置设备连接网络...</string>
+    <string name="timer_text">设备连接网络后，手机可以远程控制...</string>
+    <string name="softap_loading">正在连接设备热点，请稍等...</string>
+
+    <!-- FailedConfigActivity -->
+    <string name="please_check">设备连接网络不成功，请检查：</string>
+    <string name="join_failed_title">连接不成功</string>
+    <string name="check_first">1、wifi密码是否正确;</string>
+    <string name="check_second">2、网络是否能正常上网;</string>
+    <string name="check_third">3、手机、设备与路由器是否离得比较远;</string>
+    <string name="check_fourth">4、路由器是否设置了限制.</string>
+    <string name="config_again">重试</string>
+
+    <!-- 设备列表 -->
+
+
+    <!-- DeviceListActivity -->
+    <string name="devicelist_title">我的设备</string>
+    <string name="offline_devices">离线设备</string>
+    <string name="found_devices">局域网未绑定设备</string>
+    <string name="havenot_device">暂无设备</string>
+    <string name="no_lan">远程</string>
+    <string name="lan">局域网</string>
+    <string name="unbind">未绑定</string>
+    <string name="found_many_devices">发现多台设备名，点击选择配置设备</string>
+    <string name="no_devices">暂无设备，请添加</string>
+    <string name="bound_divices">在线设备</string>
+    <string name="remove_bound">解除绑定</string>
+    <string name="unbound_failed">解绑失败</string>
+    <string name="bound_successful">绑定成功</string>
+    <string name="bound_failed">绑定失败</string>
+    <string name="setsubscribe_failed">订阅失败</string>
+    <string name="cancel_logout">确定要注销吗？</string>
+    <string name="no">不了</string>
+    <string name="doubleclick_logout">再次点击您将退出</string>
+    <string name="doubleclick_back">再次点击可返回</string>
+
+    <!-- AboutActivity -->
+    <string name="appversion">程序版本：</string>
+    <string name="SDKversion">SDK版本：</string>
+    <string name="about">关于</string>
+
+    <!-- CaptureActivity -->
+    <string name="unknown_device">未识别设备</string>
+    <string name="camera_error">相机打开出错，请稍后重试</string>
+    <string name="scan">扫一扫，轻松绑定设备</string>
+
+    <!-- 菜单 -->
+
+    <string name="QR_code">扫码绑定设备</string>
+    <string name="site">设置</string>
+    <string name="change_user">注销</string>
+
+    <!-- 扫描二维码 -->
+    <string name="add_successful">添加成功</string>
+    <string name="add_failed">添加失败，请返回重试</string>
+    <string name="qr_code_tips">将二维码放入框内，即可自动扫描</string>
+    <string name="scanning_successful">扫码成功</string>
+
+    <!-- MessageHandler -->
+    <string name="not_ticker">Gizwits：您有新设备上线，请注意查看！</string>
+    <string name="not_title">新设备</string>
+    <string name="not_text">，点击可配置此设备！</string>
+    <string name="notify">提醒</string>
+
+    <!-- 设备控制 -->
+    <!-- DeviceControlActivity -->
+    <string name="MAC">MAC：</string>
+
+    <!-- AitlinkChooseDeviceWorkWifiActivity -->
+    <string name="choose_mode_title">模组类型选择</string>
+    <string name="choose_mode_start">选择模组类型：</string>
+    <string name="configuration_message">请输入Wi-Fi密码，连接您的智能设备</string>
+    <string name="five_wifi">注： 暂不支持5G频道的Wi-Fi网络</string>
+
+    <!-- AirlinkReadyActivity -->
+    <string name="airlink_ready_title">确认设备处于待连接状态</string>
+    <string name="airlink_ready_message">接通电源，长按按钮进入连接状态</string><!--【KEY2】直到【RGB LED】亮绿灯-->
+
+    <!-- AirlinkConfigCountdown -->
+    <string name="search_join">正在绑定设备...</string>
+    <string name="searching_device">正在搜索设备...</string>
+    <string name="searched_device">已搜索到设备...</string>
+    <string name="trying_join_device">正在尝试与设备连接...</string>
+    <string name="trying_search_device">正在努力连接设备,请稍等...</string>
+
+    <!-- App Toast -->
+    <string name="AppID_Toast">&#160;&#160;&#160;&#160;请替换 GOpenSource_AppKit/assets/UIConfig.json 中的参数定义为您申请到的机智云 app
+        id、app secret、product key 等
+    </string>
+    <string name="TencentAPPID_Toast">&#160;&#160;&#160;&#160;请替换 GOpenSource_AppKit/assets/UIConfig.json
+        中的参数定义为您申请到的QQ登录授权 app id
+    </string>
+    <string name="WechatAppID_Toast">&#160;&#160;&#160;&#160;请替换 GOpenSource_AppKit/assets/UIConfig.json
+        中的参数定义为您申请到的微信登录授权 app id 及 app secret
+    </string>
+    <string name="BDPushAppID_Toast">&#160;&#160;&#160;&#160;请替换 GOpenSource_AppKit/assets/UIConfig.json
+        中的参数定义为您申请到的百度推送app key
+    </string>
+    <string name="No_WXApp">未检测到微信，请安装后重试</string>
+
+    <!-- Error Toast -->
+    <string name="GIZ_SDK_PARAM_FORM_INVALID">SDK内部通讯数据格式无效</string>
+    <string name="GIZ_SDK_CLIENT_NOT_AUTHEN">SDK正在启动</string>
+    <string name="GIZ_SDK_CLIENT_VERSION_INVALID">无效的SDK版本号</string>
+    <string name="GIZ_SDK_UDP_PORT_BIND_FAILED">UDP端口绑定失败</string>
+    <string name="GIZ_SDK_DAEMON_EXCEPTION">SDK后台服务发生异常</string>
+    <string name="GIZ_SDK_PARAM_INVALID">接口参数无效</string>
+    <string name="GIZ_SDK_APPID_LENGTH_ERROR">AppID长度错误</string>
+    <string name="GIZ_SDK_LOG_PATH_INVALID">SDK日志路径无效</string>
+    <string name="GIZ_SDK_LOG_LEVEL_INVALID">日志级别无效</string>
+    <string name="GIZ_SDK_DEVICE_CONFIG_SEND_FAILED">设备配网信息发送失败</string>
+    <string name="GIZ_SDK_DEVICE_CONFIG_IS_RUNNING">设备配网正在执行</string>
+    <string name="GIZ_SDK_DEVICE_CONFIG_TIMEOUT">设备配网超时</string>
+    <string name="GIZ_SDK_DEVICE_DID_INVALID">设备DID无效</string>
+    <string name="GIZ_SDK_DEVICE_MAC_INVALID">设备MAC无效</string>
+    <string name="GIZ_SDK_SUBDEVICE_DID_INVALID">子设备DID无效</string>
+    <string name="GIZ_SDK_DEVICE_PASSCODE_INVALID">设备验证码无效</string>
+    <string name="GIZ_SDK_DEVICE_NOT_SUBSCRIBED">设备还未订阅</string>
+    <string name="GIZ_SDK_DEVICE_NO_RESPONSE">设备无响应</string>
+    <string name="GIZ_SDK_DEVICE_NOT_READY">设备还未就绪</string>
+    <string name="GIZ_SDK_DEVICE_NOT_BINDED">设备还未绑定</string>
+    <string name="GIZ_SDK_DEVICE_CONTROL_WITH_INVALID_COMMAND">设备操作指令中包含无效指令</string>
+    <string name="GIZ_SDK_DEVICE_CONTROL_FAILED">设备操作失败</string>
+    <string name="GIZ_SDK_DEVICE_GET_STATUS_FAILED">设备状态获取失败</string>
+    <string name="GIZ_SDK_DEVICE_CONTROL_VALUE_TYPE_ERROR">设备操作指令参数类型错误</string>
+    <string name="GIZ_SDK_DEVICE_CONTROL_VALUE_OUT_OF_RANGE">设备操作指令参数值不在有效范围内</string>
+    <string name="GIZ_SDK_DEVICE_CONTROL_NOT_WRITABLE_COMMAND">设备操作指令中包含不可写指令</string>
+    <string name="GIZ_SDK_BIND_DEVICE_FAILED">设备绑定失败</string>
+    <string name="GIZ_SDK_UNBIND_DEVICE_FAILED">设备解绑失败</string>
+    <string name="GIZ_SDK_DNS_FAILED">DNS解析失败</string>
+    <string name="GIZ_SDK_M2M_CONNECTION_SUCCESS">M2M服务器连接成功</string>
+    <string name="GIZ_SDK_SET_SOCKET_NON_BLOCK_FAILED">socket非阻塞设置失败</string>
+    <string name="GIZ_SDK_CONNECTION_TIMEOUT">连接超时</string>
+    <string name="GIZ_SDK_CONNECTION_REFUSED">连接被拒绝</string>
+    <string name="GIZ_SDK_CONNECTION_ERROR">发生了连接错误</string>
+    <string name="GIZ_SDK_CONNECTION_CLOSED">连接被对端关闭</string>
+    <string name="GIZ_SDK_SSL_HANDSHAKE_FAILED">ssl握手失败</string>
+    <string name="GIZ_SDK_DEVICE_LOGIN_VERIFY_FAILED">设备登录验证失败</string>
+    <string name="GIZ_SDK_INTERNET_NOT_REACHABLE">手机外网无法访问</string>
+    <string name="GIZ_SDK_HTTP_ANSWER_FORMAT_ERROR">HTTP应答格式错误</string>
+    <string name="GIZ_SDK_HTTP_ANSWER_PARAM_ERROR">HTTP应答数据错误</string>
+    <string name="GIZ_SDK_HTTP_SERVER_NO_ANSWER">HTTP服务端无应答</string>
+    <string name="GIZ_SDK_HTTP_REQUEST_FAILED">HTTP请求失败</string>
+    <string name="GIZ_SDK_OTHERWISE">其他错误</string>
+    <string name="GIZ_SDK_MEMORY_MALLOC_FAILED">内存分配失败</string>
+    <string name="GIZ_SDK_THREAD_CREATE_FAILED">线程创建失败</string>
+    <string name="GIZ_SDK_USER_ID_INVALID">登录用户ID无效</string>
+    <string name="GIZ_SDK_TOKEN_INVALID">登录token无效</string>
+    <string name="GIZ_SDK_GROUP_ID_INVALID">设备分组的组ID无效</string>
+    <string name="GIZ_SDK_GROUPNAME_INVALID">设备分组的组名称无效</string>
+    <string name="GIZ_SDK_GROUP_PRODUCTKEY_INVALID">设备分组的组类型无效</string>
+    <string name="GIZ_SDK_GROUP_FAILED_DELETE_DEVICE">设备分组删除失败</string>
+    <string name="GIZ_SDK_GROUP_FAILED_ADD_DEVICE">设备分组添加失败</string>
+    <string name="GIZ_SDK_GROUP_GET_DEVICE_FAILED">设备分组获取失败</string>
+    <string name="GIZ_SDK_DATAPOINT_NOT_DOWNLOAD">设备数据点配置文件还未下载</string>
+    <string name="GIZ_SDK_DATAPOINT_SERVICE_UNAVAILABLE">设备数据点配置服务不可用</string>
+    <string name="GIZ_SDK_DATAPOINT_PARSE_FAILED">设备数据点解析失败</string>
+    <string name="GIZ_SDK_SDK_NOT_INITIALIZED">SDK还未初始化</string>
+    <string name="GIZ_SDK_APK_CONTEXT_IS_NULL">Android context为空，无法启动SDK</string>
+    <string name="GIZ_SDK_APK_PERMISSION_NOT_SET">使用SDK所需要的Android权限还没有设置</string>
+    <string name="GIZ_SDK_CHMOD_DAEMON_REFUSED">SDK后台服务进程的执行权限修改失败</string>
+    <string name="GIZ_SDK_EXEC_DAEMON_FAILED">SDK后台服务进程启动失败</string>
+    <string name="GIZ_SDK_EXEC_CATCH_EXCEPTION">SDK后台服务进程启动发生异常</string>
+    <string name="GIZ_SDK_APPID_IS_EMPTY">AppID为空，无法使用SDK</string>
+    <string name="GIZ_SDK_UNSUPPORTED_API">此API已废弃，不再提供支持</string>
+    <string name="GIZ_SDK_REQUEST_TIMEOUT">SDK接口执行超时</string>
+    <string name="GIZ_SDK_DAEMON_VERSION_INVALID">SDK后台服务版本无效</string>
+    <string name="GIZ_SDK_PHONE_NOT_CONNECT_TO_SOFTAP_SSID">手机没有连接设备热点</string>
+    <string name="GIZ_SDK_DEVICE_CONFIG_SSID_NOT_MATCHED">手机当前Wifi与设备配网SSID不匹配，无法完成设备配网</string>
+    <string name="GIZ_SDK_NOT_IN_SOFTAPMODE">设备没有在softap配网模式下</string>
+    <string name="GIZ_SDK_PHONE_WIFI_IS_UNAVAILABLE">手机当前不是Wifi网络</string>
+    <string name="GIZ_SDK_RAW_DATA_TRANSMIT">当前为原始数据透传方式</string>
+    <string name="GIZ_SDK_PRODUCT_IS_DOWNLOADING">正在下载设备数据点配置文件</string>
+    <string name="GIZ_SDK_START_SUCCESS">SDK启动成功</string>
+    <string name="GIZ_SITE_PRODUCTKEY_INVALID">产品类型标识码无效</string>
+    <string name="GIZ_SITE_DATAPOINTS_NOT_DEFINED">产品数据点未定义</string>
+    <string name="GIZ_SITE_DATAPOINTS_NOT_MALFORME">产品数据点无效</string>
+    <string name="GIZ_OPENAPI_MAC_ALREADY_REGISTERED">设备MAC已经注册</string>
+    <string name="GIZ_OPENAPI_PRODUCT_KEY_INVALID">产品类型标识码无效</string>
+    <string name="GIZ_OPENAPI_APPID_INVALID">AppID无效</string>
+    <string name="GIZ_OPENAPI_TOKEN_INVALID">用户token无效</string>
+    <string name="GIZ_OPENAPI_USER_NOT_EXIST">用户不存在</string>
+    <string name="GIZ_OPENAPI_TOKEN_EXPIRED">用户token已过期</string>
+    <string name="GIZ_OPENAPI_M2M_ID_INVALID">M2M ID无效</string>
+    <string name="GIZ_OPENAPI_SERVER_ERROR">服务发生错误</string>
+    <string name="GIZ_OPENAPI_CODE_EXPIRED">验证码已过期</string>
+    <string name="GIZ_OPENAPI_CODE_INVALID">验证码无效</string>
+    <string name="GIZ_OPENAPI_SANDBOX_SCALE_QUOTA_EXHAUSTED">未发布状态下没有配额</string>
+    <string name="GIZ_OPENAPI_PRODUCTION_SCALE_QUOTA_EXHAUSTED">发布状态下没有配额</string>
+    <string name="GIZ_OPENAPI_PRODUCT_HAS_NO_REQUEST_SCALE">发布状态下没有设置配额</string>
+    <string name="GIZ_OPENAPI_DEVICE_NOT_FOUND">找不到对应的设备</string>
+    <string name="GIZ_OPENAPI_FORM_INVALID">请求数据格式无效</string>
+    <string name="GIZ_OPENAPI_DID_PASSCODE_INVALID">设备的DID或验证码无效</string>
+    <string name="GIZ_OPENAPI_DEVICE_NOT_BOUND">设备未绑定</string>
+    <string name="GIZ_OPENAPI_PHONE_UNAVALIABLE">手机号已注册</string>
+    <string name="GIZ_OPENAPI_USERNAME_UNAVALIABLE">用户名已注册</string>
+    <string name="GIZ_OPENAPI_USERNAME_PASSWORD_ERROR">用户名或密码错误</string>
+    <string name="GIZ_OPENAPI_SEND_COMMAND_FAILED">指令发送失败</string>
+    <string name="GIZ_OPENAPI_EMAIL_UNAVALIABLE">邮箱已注册</string>
+    <string name="GIZ_OPENAPI_DEVICE_DISABLED">设备已注销</string>
+    <string name="GIZ_OPENAPI_FAILED_NOTIFY_M2M">M2M通知失败</string>
+    <string name="GIZ_OPENAPI_ATTR_INVALID">属性无效</string>
+    <string name="GIZ_OPENAPI_USER_INVALID">用户名无效</string>
+    <string name="GIZ_OPENAPI_FIRMWARE_NOT_FOUND">找不到设备固件</string>
+    <string name="GIZ_OPENAPI_JD_PRODUCT_NOT_FOUND">找不到京东产品信息</string>
+    <string name="GIZ_OPENAPI_DATAPOINT_DATA_NOT_FOUND">找不到对应的设备数据点数据</string>
+    <string name="GIZ_OPENAPI_SCHEDULER_NOT_FOUND">找不到计划任务</string>
+    <string name="GIZ_OPENAPI_QQ_OAUTH_KEY_INVALID">QQ登录授权key无效</string>
+    <string name="GIZ_OPENAPI_OTA_SERVICE_OK_BUT_IN_IDLE">OTA升级服务闲置或被禁用</string>
+    <string name="GIZ_OPENAPI_BT_FIRMWARE_UNVERIFIED">BT固件未验证</string>
+    <string name="GIZ_OPENAPI_BT_FIRMWARE_NOTHING_TO_UPGRADE">BT固件不需要升级</string>
+    <string name="GIZ_OPENAPI_SAVE_KAIROSDB_ERROR">kairosdb存储错误</string>
+    <string name="GIZ_OPENAPI_EVENT_NOT_DEFINED">事件未定义</string>
+    <string name="GIZ_OPENAPI_SEND_SMS_FAILED">手机短信发送失败</string>
+    <string name="GIZ_OPENAPI_APPLICATION_AUTH_INVALID">应用授权无效</string>
+    <string name="GIZ_OPENAPI_NOT_ALLOWED_CALL_API">不允许使用已废弃的API</string>
+    <string name="GIZ_OPENAPI_BAD_QRCODE_CONTENT">QRCode内容已损坏</string>
+    <string name="GIZ_OPENAPI_REQUEST_THROTTLED">请求频率过高，请稍后再试</string>
+    <string name="GIZ_OPENAPI_DEVICE_OFFLINE">设备已离线</string>
+    <string name="GIZ_OPENAPI_TIMESTAMP_INVALID">时间戳无效</string>
+    <string name="GIZ_OPENAPI_SIGNATURE_INVALID">应用签名无效</string>
+    <string name="GIZ_OPENAPI_DEPRECATED_API">API已废弃</string>
+    <string name="GIZ_OPENAPI_RESERVED">保留的错误字</string>
+    <string name="GIZ_PUSHAPI_BODY_JSON_INVALID">数据体无效</string>
+    <string name="GIZ_PUSHAPI_DATA_NOT_EXIST">数据不存在</string>
+    <string name="GIZ_PUSHAPI_NO_CLIENT_CONFIG">客户端没有配置推送ID</string>
+    <string name="GIZ_PUSHAPI_NO_SERVER_DATA">没有服务端数据</string>
+    <string name="GIZ_PUSHAPI_GIZWITS_APPID_EXIST">机智云AppID已经存在</string>
+    <string name="GIZ_PUSHAPI_PARAM_ERROR">参数错误</string>
+    <string name="GIZ_PUSHAPI_AUTH_KEY_INVALID">授权无效</string>
+    <string name="GIZ_PUSHAPI_APPID_OR_TOKEN_ERROR">AppID或用户token错误</string>
+    <string name="GIZ_PUSHAPI_TYPE_PARAM_ERROR">参数类型错误</string>
+    <string name="GIZ_PUSHAPI_ID_PARAM_ERROR">ID参数错误</string>
+    <string name="GIZ_PUSHAPI_APPKEY_SECRETKEY_INVALID">APIKey或者SecretKey无效</string>
+    <string name="GIZ_PUSHAPI_CHANNELID_ERROR_INVALID">Channel ID 错误</string>
+    <string name="GIZ_PUSHAPI_PUSH_ERROR">推送错误</string>
+    <string name="UNKNOWN_ERROR">未知错误</string>
+    <string name="GIZ_OPENAPI_REGISTER_IS_BUSY">正在注册</string>
+    <string name="GIZ_OPENAPI_CANNOT_SHARE_TO_SELF">不能把设备分享给自己</string>
+    <string name="GIZ_OPENAPI_ONLY_OWNER_CAN_SHARE">只有主账号才能分享设备</string>
+    <string name="GIZ_OPENAPI_NOT_FOUND_GUEST">找不到子账号</string>
+    <string name="GIZ_OPENAPI_GUEST_ALREADY_BOUND">子账号已经绑定</string>
+    <string name="GIZ_OPENAPI_NOT_FOUND_SHARING_INFO">找不到分享记录</string>
+    <string name="GIZ_OPENAPI_NOT_FOUND_THE_MESSAGE">找不到消息记录</string>
+    <string name="GIZ_OPENAPI_SHARING_IS_WAITING_FOR_ACCEPT">等待被分享者接受分享邀请</string>
+    <string name="GIZ_OPENAPI_SHARING_IS_EXPIRED">分享邀请已过期</string>
+    <string name="GIZ_OPENAPI_SHARING_IS_COMPLETED">分享邀请已被接受或拒绝了</string>
+    <string name="GIZ_OPENAPI_INVALID_SHARING_BECAUSE_UNBINDING">设备已被解绑，设备分享已无效</string>
+    <string name="GIZ_OPENAPI_ONLY_OWNER_CAN_BIND">只有主账号才能绑定设备</string>
+    <string name="GIZ_OPENAPI_ONLY_OWNER_CAN_OPERATE">只有主账号才能解绑其他用户或者取消共享</string>
+    <string name="GIZ_OPENAPI_SHARING_ALREADY_CANCELLED">分享邀请已经被取消</string>
+    <string name="GIZ_OPENAPI_OWNER_CANNOT_UNBIND_SELF">主账号不能解绑自己</string>
+    <string name="GIZ_OPENAPI_ONLY_GUEST_CAN_CHECK_QRCODE">只有受邀请者才能查询二维码信息</string>
+    <string name="GIZ_OPENAPI_MESSAGE_ALREADY_DELETED">消息已经被删除</string>
+    <string name="GIZ_OPENAPI_BINDING_NOTIFY_FAILED">绑定通知失败</string>
+    <string name="GIZ_OPENAPI_ONLY_SELF_CAN_MODIFY_ALIAS">不能修改其他人的分享备注</string>
+    <string name="GIZ_OPENAPI_ONLY_RECEIVER_CAN_MARK_MESSAGE">不能标记其他人的消息</string>
+    <string name="GIZ_SDK_NO_AVAILABLE_DEVICE">(批量设置设备域名信息时)没有可用设备</string>
+    <string name="GIZ_SDK_HTTP_SERVER_NOT_SUPPORT_API">云服务不支持此API</string>
+    <string name="GIZ_SDK_ADD_SUBDEVICE_FAILED">添加子设备失败</string>
+    <string name="GIZ_SDK_DELETE_SUBDEVICE_FAILED">删除子设备失败</string>
+    <string name="GIZ_SDK_GET_SUBDEVICES_FAILED">获取子设备列表失败</string>
+
+    <!-- 个人中心 -->
+    <string name="personal_center">个人中心</string>
+    <string name="user_management">用户管理</string>
+    <string name="user_account">用户账号</string>
+    <string name="edit_password">修改密码</string>
+    <string name="log_out">退出登录</string>
+    <string name="log_in">立即登录</string>
+    <string name="enter_current_password">请输入原密码</string>
+    <string name="enter_new_password">请设置新密码</string>
+    <string name="re_enter_new_password">请再次确认密码</string>
+
+    <!-- 修改密码 -->
+    <string name="oldpasserror">原密码输入有误</string>
+    <string name="nosamepass">新密码和确认密码不相同</string>
+    <string name="passsuccess">密码修改成功</string>
+    <string name="passerror">密码修改失败</string>
+    <string name="confirm">确定</string>
+
+    <!-- 设备分享 -->
+
+    <string name="shared">共享</string>
+    <string name="invited">受邀</string>
+    <string name="accept">已接受</string>
+    <string name="refuse">已拒绝</string>
+    <string name="requsettimeout">请求超时</string>
+    <string name="accepted">接受</string>
+    <string name="refused">拒绝</string>
+    <string name="sharedlist">共享列表</string>
+    <string name="sharedmanager">共享管理</string>
+    <string name="sharedstated">共享状态</string>
+    <string name="boundusers">已绑用户</string>
+    <string name="addshared">添加共享</string>
+    <string name="devicetwoshared">设备二维码绑定分享</string>
+    <string name="useraccountshared">用户账号分享</string>
+    <string name="zxingtimeout">二维码将于15分钟后失效</string>
+    <string name="saomatianjia">使用智能设备App或机智云App扫码添加此设备</string>
+    <string name="usersharedhint">输入用户登录账号／手机号／邮箱</string>
+    <string name="account_shared">账号共享</string>
+    <string name="scan_code_sharing">扫码共享</string>
+    <string name="messagecenter">消息中心</string>
+    <string name="deviceshared">设备共享</string>
+    <string name="deviceshared_info">共享信息</string>
+    <string name="gizwitsmessage">系统公告</string>
+    <string name="devicesharedmess">设备共享消息</string>
+    <string name="delete">删除</string>
+    <string name="sharedto">已分享给</string>
+    <string name="bounduser">绑定用户</string>
+    <string name="tomeshareddevice">xxx向您共享设备</string>
+    <string name="friends">,与小伙伴一起使用</string>
+    <string name="chooseusertype">选择用户类型</string>
+    <string name="alawyssend">发送成功</string>
+    <string name="waitforaccept">等待接受</string>
+    <string name="cancel_sharing">取消共享</string>
+    <string name="mycancel">取消分享</string>
+    <string name="deleteuserpremiss">确定删除xxx的使用权限吗？</string>
+    <string name="timeout">请求超时</string>
+    <string name="sharedagain">重新分享</string>
+    <string name="ignore">忽略</string>
+    <string name="tipthings">提示：本次设备共享邀请于xx分钟后失效</string>
+    <string name="whoshared">xxx向你共享xxx，你接受并绑定设备吗？</string>
+    <string name="your_request_is_failed">接受共享失败</string>
+    <string name="you_have_no_device">您没有可被分享的设备</string>
+    <string name="you_have_no_invited_message">您没有受邀信息</string>
+    <string name="have_not_been_shared">还未被分享</string>
+    <string name="have_no_bound_users">没有已绑用户</string>
+    <string name="cancel_failed">取消共享失败</string>
+    <string name="user_account_can_not_be_empty">用户账号不能为空</string>
+    <string name="send_failed1">发送失败</string>
+    <string name="manual_disposition">手动配置</string>
+    <string name="cancelled">已取消</string>
+    <string name="twosharedtimeout">对不起，由于网络原因无法发出共享邀请</string>
+    <string name="sharedfailed">共享邀请失败</string>
+    <string name="sorry">很抱歉，由于网络原因无法获取邀请信息</string>
+    <string name="verysorry">很抱歉，无法获取到邀请信息，可能二维码信息有误</string>
+    <string name="requestoutoftime">本次设备共享邀请已过期</string>
+    <string name="questerror">请求失败</string>
+    <string name="twofailed">二维码已经失效</string>
+    <string name="renameremark">修改共享信息别名</string>
+    <string name="moudlechoose">您选择了xx模组</string>
+
+    <string name="device_open">设备开</string>
+    <string name="device_close">设备关</string>
+    <string name="every_day">每天</string>
+    <string name="only_once">仅一次</string>
+    <string name="week_repeat">周重复</string>
+
+    <string name="repeat">重复</string>
+    <string name="operation">操作</string>
+    <string name="timer_error">获取定时数据失败</string>
+    <string name="timer">定时</string>
+    <string name="share">共享</string>
+    <string name="o_c">开/关</string>
+
+    <string name="setting_dev_info">设置设备信息</string>
+    <string name="get_dev_info">获取设备信息</string>
+    <string name="get_dev_status">获取设备状态</string>
+    <string name="not_dev_share_msg">暂无设备共享消息</string>
+
+
+    <string name="intelligent_socket">智能插座</string>
+    <string name="Intelligent_lamp">智能灯</string>
+    <string name="soft_ap">快速模式</string>
+
+    <string name="about_tv_title">常用操作说明</string>
+    <string name="about_config">关于配网</string>
+    <string name="smartlink">1.Smartlink模式</string>
+    <string name="smartlink_content">    长按设备开关3秒以上10秒以下，进入SmartLink配网模式，此时设备蓝灯快闪（每0.5s一次），输入密码后点击下一步，app开始搜索设备，配网成功后，app上设备显示在线，设备蓝灯常亮；</string>
+    <string name="softap">2.SoftAP模式</string>
+    <string name="softap_content">长按设备开关10秒以上进入SoftAP配网模式，此时设备蓝色指示灯慢闪（每2s一次），输入密码后点击快速模式，app开始搜索设备，配网成功后，app上设备显示在线，设备蓝灯常亮。</string>
+
+    <string name="dev_operation">设备操作</string>
+    <string name="dev_operation_1">1.初次添加设备时，设备和手机要在同一WIFI环境下，添加成功后，可以使用不同WIFI环境或移动2G/3G/4G网络实现远程控制；</string>
+    <string name="dev_operation_2">2.设备添加成功后，可用一次性、周期性定时对设备进行开关控制，设备能在设定的时间点开启或关闭；</string>
+    <string name="dev_operation_3">3.设备添加成功后，可在设备控制页面设置共享，其它用户通过扫描二维码即可绑定并控制设备。</string>
+
+
+    <string name="loading">loading...</string>
+    <string name="head">这里是HeadView</string>
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="refresh_succeed">刷新成功</string>
+    <string name="refresh_fail">刷新失败</string>
+    <string name="loadmore">加载更多</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--登录-->
+    <string name="login_aty_title">登录</string>
+    <string name="login_aty_domainconfig">Domain配置</string>
+    <string name="login_aty_username">用户名</string>
+    <string name="login_aty_input_phone_or_email">请输入手机号或邮箱</string>
+    <string name="login_aty_password">密码</string>
+    <string name="login_aty_input_password">请输入密码</string>
+    <string name="login_aty_newuser_sigup">新用户注册</string>
+    <string name="login_aty_change_psd">修改密码</string>
+    <string name="login_aty_loginbtn">登录</string>
+    <string name="login_aty_username_or_pwd_cannot_be_empty">用户名或密码不能为空</string>
+    <string name="register_aty_phone_cannot_be_empty">手机号不能为空</string>
+    <string name="register_aty_change_psd_success">修改成功</string>
+
+    <!--注册-->
+    <string name="register_aty_title">注册</string>
+    <string name="register_aty_phonenumber">手机号</string>
+    <string name="register_aty_input_phonenumber">请输入手机号</string>
+    <string name="register_aty_email">邮箱</string>
+    <string name="register_aty_input_email">请输入邮箱</string>
+    <string name="register_aty_username">用户名</string>
+    <string name="register_aty_input_username">请输入用户名</string>
+    <string name="register_aty_password">密码</string>
+    <string name="register_aty_input_password">请输入密码</string>
+    <string name="register_aty_repeat_pwd">重复密码</string>
+    <string name="register_aty_input_pwd_again">请输入重复密码</string>
+    <string name="register_aty_vercode">验证码</string>
+    <string name="register_aty_vercode_not_null">请先获取验证码</string>
+    <string name="register_aty_vercode_hint">验证码</string>
+    <string name="register_aty_fetch_vercode">发送验证码</string>
+    <string name="register_aty_register">注册</string>
+    <string name="register_aty_wifiname">Wi-Fi名称:</string>
+    <string name="register_aty_wifipwd">Wi-Fi密码:</string>
+    <string name="register_aty_input_wifipwd">请输入wifi密码</string>
+    <string name="register_aty_resettext">重置设备Wifi</string>
+    <string name="register_aty_phone_or_email_cannot_be_empty">手机号或邮箱不能为空</string>
+    <string name="register_aty_repeat_pwd_incorrect">重复密码错误</string>
+    <string name="register_aty_fetch_vercode_success">验证码发送成功</string>
+    <string name="register_aty_register_success">注册成功</string>
+    <string name="register_aty_upgrade_confirm">确认</string>
+
+    <!--主界面-->
+    <string name="main_aty_add_new_device">添加新设备</string>
+    <string name="main_aty_ablecloud">SmartHanger</string>
+    <string name="main_aty_nodevice">无绑定的设备，请绑定添加设备</string>
+    <string name="main_aty_openlight_success">开灯成功</string>
+    <string name="main_aty_openlight_fail">开灯失败</string>
+    <string name="main_aty_closelight_success">关灯成功</string>
+    <string name="main_aty_closelight_fail">关灯失败</string>
+    <string name="main_aty_device_offline">%1$s(不在线)</string>
+    <string name="main_aty_device_cloud_online">%1$s(云端在线)</string>
+    <string name="main_aty_device_lan_online">%1$s(局域网在线)</string>
+    <string name="main_aty_device_cloud_and_lan_online">%1$s(云端与局域网在线)</string>
+    <string name="main_aty_delete_device_title">删除设备</string>
+    <string name="main_aty_delete_device_desc">是否删除设备</string>
+    <string name="main_aty_delete_device_confirm">是</string>
+    <string name="main_aty_delete_device_cancle">否</string>
+    <string name="main_aty_delete_device_success">删除成功</string>
+    <string name="main_aty_ota_upgrade_title">发现新的OTA版本,是否确认升级?</string>
+    <string name="main_aty_ota_upgrade_desc">设备ID:%1$s\n设备名:%2$s\n目标版本:%3$s\n更新日志:\n%4$s</string>
+    <string name="main_aty_ota_upgrade_confirm">确认</string>
+    <string name="main_aty_ota_upgrade_cancle">取消</string>
+    <string name="main_aty_ota_upgrade_toast_hint">确认升级,设备将开始下载OTA版本</string>
+
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="xlistview_nerver_have_a_refresh">还未更新过</string>
+    <string name="xlistview_just_a_minute">刚刚</string>
+    <string name="xlistview_refreshtime_desc1">%1$d分%2$d秒前</string>
+    <string name="xlistview_refreshtime_desc2">%1$d小时%2$s</string>
+    <string name="xlistview_refreshtime_desc3">%1$d天%2$s</string>
+
+    <string name="list_device_adapter_closelight">关灯</string>
+    <string name="list_device_open_light">开灯</string>
+
+    <string name="menu_aty_title">个人中心</string>
+    <string name="menu_aty_look_configinfo">查看当前配置信息</string>
+    <string name="menu_aty_about">关于</string>
+    <string name="menu_aty_logout">退出登录</string>
+
+    <string name="add_device_aty_title">添加新设备</string>
+    <string name="add_device_aty_hint">请先启动设备后点击开始连接</string>
+    <string name="add_device_aty_wifiname">Wi-Fi名称:</string>
+    <string name="add_device_aty_wifipwd">Wi-Fi密码:</string>
+    <string name="add_device_aty_wifipwd_hint">请输入网络密码</string>
+    <string name="add_device_aty_startlink">开始连接</string>
+    <string name="add_device_aty_aplink">
+        <u>配置不上?尝试AP配网?</u>
+    </string>
+    <string name="add_device_aty_direct_bind">直接绑定</string>
+    <string name="add_device_aty_device_activate_ing">正在激活设备，请稍后。。。</string>
+    <string name="add_device_aty_re_activate">重新激活</string>
+    <string name="add_device_aty_choose_device_to_bind">已配网成功的设备列表...\n点击选择设备进行绑定</string>
+    <string name="add_device_aty_device_is_bounded">该设备已被绑定</string>
+    <string name="add_deviec_aty_input_devicename_to_bind">请输入设备名字进行绑定</string>
+    <string name="add_device_aty_confirmbtn_text">确定</string>
+    <string name="add_device_aty_device_bind_success">设备%1$d绑定成功</string>
+    <string name="add_device_aty_bind_status_unknown">未知</string>
+    <string name="add_device_aty_bind_status_bind">已绑定</string>
+    <string name="add_device_aty_bind_status_unbind">未绑定</string>
+
+    <string name="add_device_adapter_unknown">未知</string>
+
+    <!--自定义-->
+    <string name="bean_read_state_success">读取设备状态成功</string>
+    <string name="bean_read_state_error">读取设备状态失败</string>
+</resources>

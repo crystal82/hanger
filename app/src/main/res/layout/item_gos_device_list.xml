@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    app:cardBackgroundColor="@android:color/transparent"
+                                    app:cardElevation="0.5dp"
+                                    app:cardPreventCornerOverlap="true"
+                                    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:id="@+id/rl_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_gray"
+        android:gravity="top"
+        android:paddingBottom="8dp"
+        android:paddingRight="-91dp"
+        android:paddingTop="8dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+
+            <LinearLayout
+                android:id="@+id/llLeft"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/img_bg_shape2"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgLeft"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@mipmap/device_list_icon"/>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tvDeviceName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="智能衣架"
+                    android:textColor="@color/white"/>
+
+                <TextView
+                    android:id="@+id/tvDeviceMac"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvDeviceName"
+                    android:text="tvDeviceMac"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"/>
+
+                <TextView
+                    android:id="@+id/tvDeviceStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvDeviceMac"
+                    android:text="tvDeviceStatus"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_online_icons"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp">
+
+                <ImageView
+                    android:id="@+id/iv_clock_icon"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginRight="8dp"
+                    android:src="@mipmap/clock_icon"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/iv_trash_icon"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@id/iv_clock_icon"
+                    android:src="@mipmap/trash_icon"/>
+
+
+                <!--局域网or广域网internet_icon-->
+                <ImageView
+                    android:id="@+id/iv_wifi_icon"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_toRightOf="@id/iv_clock_icon"
+                    android:src="@drawable/lvl_1"/>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:gravity="center_vertical"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/imgRight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:src="@drawable/button_more"/>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/delete2"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:background="@color/tomato"
+                android:clickable="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="@string/remove_bound"
+                    android:textColor="@color/floralwhite"
+                    android:textSize="15sp"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

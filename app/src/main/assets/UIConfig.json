@@ -1,0 +1,37 @@
+﻿{
+  /*  //智能插座
+ "app_id": "8c9ac14a138e43c8b85ac58cbfbb0ecc",
+  "app_secret": "59466f0a61d344268a9d004f630d7bec",
+  "product_key": ["2324560088904bd2812fb0d1f683f6d6"],
+  "product_secret":"4822bff9a97647d997a5e0150add0a31",*/
+
+  /*"app_id": "4418f980354d4d4eb05bf6225a93f3a7",
+  "app_secret": "ccf33c3779d74686a0df16396add7bcd",
+  "product_key": ["3e04dcdb4c4a4ec09a2b803780d949da"],
+  "product_secret":"9c71129a008f4c9bbe086a70bf65cc8c",*/
+
+  "app_id": "652e32761a20415fb48e6a1a18aff375",
+  "app_secret": "2a0ccc6141e240bcb32f31c02d747017",
+  "product_key": ["d96813c7b4144e9eb51fdd14c3ab5ec0"],
+  "product_secret":"0277f5fa5a5742dbbb25733f5b2ae86d",
+
+  "openAPI_URL": "",
+  "site_URL": "",
+  "push_URL": "",
+  "UsingTabSet": true,
+  "wifi_type_select": true,
+  "tencent_app_id": "1106308122",
+  "wechat_app_id": "wx212797a27cce1a8d",
+  "wechat_app_secret": "8d589c9559449c3b3552662007d8f347",
+  "push_type": 0,
+  "bpush_app_key": "your_bpush_api_key",
+  "buttonColor": "1976D2",
+  "buttonTextColor": "ffffff",
+  "navigationBarColor": "1976D2",
+  "navigationBarTextColor": "ffffff",
+  "configProgressViewColor": "000000",
+  "addDeviceTitle": "",
+  "qq": true,
+  "wechat": true,
+  "anonymousLogin": true
+}

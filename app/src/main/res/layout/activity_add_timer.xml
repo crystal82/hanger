@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.uascent.jz.ua420r.timer.AddTimerActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="10dp"
+        android:background="#d3d3d3" />
+
+    <LinearLayout
+        android:id="@+id/ll_cz"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/background_home"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/operation"
+            android:textColor="@color/black_10"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_cz"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="@string/open"
+            android:textColor="@color/gray_10"
+            android:textSize="18sp" />
+
+        <ImageButton
+            android:id="@+id/ib_cz"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/background_home"
+            android:scaleType="centerCrop"
+            android:src="@drawable/next" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#d3d3d3" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="30dp"
+        android:background="#d3d3d3" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_cf"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/background_home"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/repeat"
+            android:textColor="@color/black_10"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_cf"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="@string/only_once"
+            android:textColor="@color/gray_10"
+            android:textSize="18sp" />
+
+        <ImageButton
+            android:id="@+id/ib_cf"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/background_home"
+            android:scaleType="centerCrop"
+            android:src="@drawable/next" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#d3d3d3" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        android:text="@string/please_set_time" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <TimePicker
+            android:id="@+id/timePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <com.uascent.jz.ua420r.view.PickTimeView
+            android:id="@+id/pickTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible" />
+    </LinearLayout>
+
+</LinearLayout>

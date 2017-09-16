@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/l_head"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/text_circle_bg"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/line_color"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/text_circle_bg"
+            android:gravity="center"
+            android:text="2"
+            android:textColor="@color/line_color"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/text_circle_bg_blue"
+            android:gravity="center"
+            android:text="3"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvTimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l_head"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="@string/configcountDown_title"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTimer"
+        android:layout_marginTop="30dp"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pic_pairing" />
+    </LinearLayout>
+
+    <com.uascent.jz.ua420r.view.ZzHorizontalProgressBar
+        android:id="@+id/pb3"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/bg"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        app:zpb_bg_color="@color/background_gray"
+        app:zpb_padding="0dp"
+        app:zpb_pb_color="@color/primary" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pb3"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="@string/trying_search_device"
+        android:textSize="18sp" />
+
+</RelativeLayout>
